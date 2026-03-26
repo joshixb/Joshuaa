@@ -845,7 +845,7 @@
       const card = document.createElement('article');
       card.className = `photo-card ${spans[i - 1] || 'small'} reveal`;
       card.innerHTML = `
-       <img src="img/imagen${i}.jpg" alt="Fotografía ${i}" />
+       <img src="./img/imagen${i}.jpg" alt="Fotografía ${i}" />
         <div class="photo-meta">
           <div class="index">${String(i).padStart(2, '0')}</div>
           <div class="label">${captions[i - 1]}<br />Click para ampliar</div>
